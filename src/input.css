@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background{
+    background: linear-gradient(rgba(250, 139, 80, 0.559), rgba(0, 128, 0, 0.496)), url(/group-afro-americans-working-together.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}

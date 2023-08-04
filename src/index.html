@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body class="background">
+    <section class="flex justify-center items-center min-h-[100vh] w-[100%]  font-bold p-0 m-0 font-sans">
+        
+        <div class="form box relative w-[400px] max-sm:w-64 max-sm:pl-2 max-sm:h-80 max-sm:relative right-5 h-[500px] bg-[red] bg-transparent shadow-2xl shadow-black flex justify-center items-center border border-black">
+            <div class="form-value">
+                <form action="">
+                    <h2 class="text-2xl text-white pb-1">Login</h2>
+                    <div class="inputbox relative pb-2 ">
+                         <ion-icon name="mail-outline"></ion-icon>
+                         <label for="">Email</label><br>
+                        <input class="border border-black px-3" type="email" required>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <label for="">Password</label><br>
+                        <input class="border border-black px-3" type="password" required>
+                    </div>
+                    <div class="forget flex max-sm:flex-col-reverse">
+                        <label for="" class="text-black"><input type="checkbox">Remember Me</label>
+                        <a class=" underline relative left-8 text-white" href="">Forgot Password?</a>
+                    </div>
+                    <div class="pt-3">
+                        <button class="bg-slate-50 shadow text-black px-10 py h-8 w-64 text-center  border-white hover:bg-black hover:text-white rounded">Log in</button>
+                    </div>
+                    <div>
+                         <h2 class="text-white underline text-center">Or sign up using</h2>
+                         <div class="flex gap-1 relative left-20 pt-2">
+                            <div>
+                                <img class="h-8 w-8 rounded-full" src="/facebook icon.png" alt="">
+                            </div>
+                            <div>
+                                <img class="h-8 w-8" src="/pngtree-twitter-social-media-round-icon-png-image_6315985.png" alt="">
+                            </div>
+                            <div>
+                                <img class="h-8 w-8 " src="/google round.png" alt="">
+                            </div>
+    
+                         </div>
+                    </div>
+                    <div class="register">
+                            <p>Don't have an account? <a class="text-white underline" href="register index.html">Register</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
